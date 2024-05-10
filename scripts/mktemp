@@ -1,0 +1,14 @@
+process FASTQC {
+
+shell:
+"""
+fastqc --version
+mktemp
+"""
+}
+
+workflow {
+
+FASTQC()
+
+}
