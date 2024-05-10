@@ -44,5 +44,9 @@ NXF_SINGULARITY_CACHEDIR=/exports/igmm/eddie/BioinformaticsResources/nfcore/sing
 Run nextflow​
 
 ```bash
+nextflow run ggrimes/nextflow_eddie   
+```
+
+```bash
 nextflow run nf-core/rnaseq -r 3.14.0 --outdir test -profile eddie,test
 ```
