@@ -7,7 +7,7 @@ process sayHello {
     stdout
   script:
     """
-    echo '$x world!'
+    echo '$x BGees!'
     """
 }
 
