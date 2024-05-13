@@ -12,9 +12,9 @@ path read
 output:
 stdout
 
-shell:
+script:
 """
-fastp -i $read
+fastp -i $read 2>&1
 """
 }
 
