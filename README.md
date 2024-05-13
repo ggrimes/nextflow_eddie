@@ -26,7 +26,6 @@ Load modules​
 
 ```bash
 module load igmm/bac/nextflow/23.10.0.5889​
-module load java/jdk-20.0.2​
 ```
 
 Go to project Directory​
