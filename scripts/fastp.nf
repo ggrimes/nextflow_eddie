@@ -1,5 +1,5 @@
-// nextflow run fastqc.nf -with-singularity  https://depot.galaxyproject.org/singularity/fastp:0.23.4--hadf994f_3
-//  nextflow run fastqc.nf -with-singularity https://depot.galaxyproject.org/singularity/fastp:0.23.4--hadf994f_3 -c /exports/igmm/eddie/BioinformaticsResources/nextflow/config/eddie.config
+// nextflow run fastp.nf -with-singularity  https://depot.galaxyproject.org/singularity/fastp:0.23.4--hadf994f_3
+// nextflow run fastp.nf -with-singularity https://depot.galaxyproject.org/singularity/fastp:0.23.4--hadf994f_3 -c /exports/igmm/eddie/BioinformaticsResources/nextflow/config/eddie.config
 params.read= "data/*.fq.gz"
 
 process FASTP {
