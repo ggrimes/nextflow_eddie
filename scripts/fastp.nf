@@ -9,6 +9,9 @@ debug true
 input:
 path read
 
+output:
+val stdout
+
 shell:
 """
 fastp -i $read
@@ -16,5 +19,5 @@ fastp -i $read
 }
 
 workflow {
-Channel.fromPath(params.read,checkIfExists:true) | FASTP 
+Channel.fromPath(params.read,checkIfExists:true) | FASTP |view
 }
