@@ -10,7 +10,7 @@ input:
 path read
 
 output:
-val stdout
+stdout
 
 shell:
 """
