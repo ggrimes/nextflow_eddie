@@ -16,7 +16,7 @@ fastqc $read
 }
 
 workflow {
-Channel.fromPath(params.read,checkIfExists:true) | FASTQC | view
+Channel.fromPath(params.read,checkIfExists:true) | FASTQC 
 }
 
 
